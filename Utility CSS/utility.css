@@ -1,0 +1,102 @@
+/* reset CSS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+/* reset CSS End */
+
+/* flex CSS */
+
+.container-flex {
+  display: flex;
+}
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-sb {
+  justify-content: space-between;
+}
+
+.flex-sa {
+  justify-content: space-around;
+}
+
+.flex-sa {
+  justify-content: space-evenly;
+}
+
+.flex-wr {
+  flex-wrap: wrap;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+/* flex CSS End*/
+
+/* Border and Border Radius  CSS */
+
+.border-none {
+  border: none;
+}
+
+.border-radius-50 {
+  border-radius: 50%;
+}
+
+.border-radius-s{
+  border-radius: 1rem;
+}
+
+.border-solid {
+  border: 2px solid #000000;
+}
+/* Border and Border Radius CSS End */
+
+/* Anchor style */
+
+.anchor-style {
+  text-decoration: none;
+  color: #000000;
+  cursor: pointer;
+}
+
+/* Anchor style End */
+
+/* button style */
+
+.button-style {
+  padding: 4px 8px;
+  margin: 3px 6px;
+}
+
+/* button style End */
+
+/* Font sizes */
+.font-medium {
+  font-size: 1.6rem;
+}
+
+.font-l {
+  font-size: 2.6rem;
+}
+
+.font-xl {
+  font-size: 3.2rem;
+}
+
+/* Font sizes End */
+
+.padding-p1 {
+  padding: 4px 6px;
+}
+
+.margin-m1 {
+  margin: 4px 6px;
+}
