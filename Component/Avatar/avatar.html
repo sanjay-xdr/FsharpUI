@@ -1,1 +1,173 @@
-<!-- TODO: start making -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="../../Utility CSS/utility.css" />
+    <link rel="stylesheet" href="avatar.css" />
+    <link rel = "icon" href = "../../img/logo.png" type = "image/x-icon">
+    <title>Avatar</title>
+  </head>
+  <body>
+    <header>
+      <nav class="container-flex flex-sb flex-wr">
+        <div class="header__nav">
+          <ul class="container-flex">
+            <li>
+              <a
+                href="../../index.html"
+                class="font-l anchor-style nav__icon--position nav__item--hover"
+                >F#
+                <span class="nav__subtitle--position">Fast & Sharp UI</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container">
+      <div class="sidebar container-flex">
+        <ul class="font-xl">
+          <li>
+            <span class="sidebar-title"> Components </span>
+          </li>
+
+          <li>
+            <a href="#avatar" class="sidebar-menu" rel="noopener noreferrer">
+              Avatar
+            </a>
+          </li>
+
+          <li>
+            <a href="#alert" class="sidebar-menu" rel="noopener noreferrer">
+              Alert
+            </a>
+          </li>
+
+          <li>
+            <a href="#alert" class="sidebar-menu" rel="noopener noreferrer">
+              Badge
+            </a>
+          </li>
+
+          <li>
+            <a href="#alert" class="sidebar-menu" rel="noopener noreferrer">
+              Button
+            </a>
+          </li>
+
+          <li>
+            <a href="#alert" class="sidebar-menu" rel="noopener noreferrer">
+              Card
+            </a>
+          </li>
+
+          <li>
+            <a href="#alert" class="sidebar-menu" rel="noopener noreferrer">
+              Image
+            </a>
+          </li>
+          <li>
+            <a href="#alert" class="sidebar-menu" rel="noopener noreferrer">
+              Input
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="main">
+        <section>
+          <h1 class="font-xl margin-m2">Avatar</h1> <br>
+          <hr>
+
+          <h4 class="font-xl">Example of Image Avatar </h4>
+          <div class="box container-flex">
+        
+            <figure>
+              <img
+                class="round-img avatar-xl"
+                src="https://picturepan2.github.io/spectre/img/avatar-1.png"
+                alt=""
+              />
+            </figure>
+            <figure>
+              <img
+                class="round-img avatar-l"
+                src="https://picturepan2.github.io/spectre/img/avatar-2.png"
+                alt=""
+              />
+            </figure>
+            <figure>
+              <img
+                class="round-img avatar-md"
+                src="https://picturepan2.github.io/spectre/img/avatar-3.png"
+                alt=""
+              />
+            </figure>
+            <figure>
+              <img
+                class="round-img avatar-sm"
+                src="https://picturepan2.github.io/spectre/img/avatar-4.png"
+                alt=""
+              />
+            </figure>
+          </div>
+          <br>
+          
+          <div class="margin-m1 padding-p1">
+               <p class="font-medium">Avatar can be used to show user's profile picture on profile information page, on navigation bar, in blogs grid items.</p>
+              
+               <p class="font-medium">Avatar is available in 4 different sizes. You can use image in Avatar. You need to include class avatar and for size add class according to size avatar-xl, avatar-l, avatar-md, avatar-sm (e.g. class="round-img avatar-lg")</p>
+        </div> <br>
+
+        <div class="margin-m1 container-flex flex-center">
+            <code>
+                <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28231%2C229%2C229%2C1%29&t=one-light&wt=none&l=auto&width=748.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cfigure%253E%250A%2520%2520%253Cimg%2520class%253D%2522round-img%2520avatar-xl%2522%2520src%253D%2522.....%2522%2520%252F%253E%250A%253C%252Ffigure%253E%250A%253Cfigure%253E%250A%2520%2520%253Cimg%2520class%253D%2522round-img%2520avatar-l%2522%2520src%253D%2522.....%2522%252F%253E%250A%253C%252Ffigure%253E%250A%253Cfigure%253E%250A%2520%2520%253Cimg%2520class%253D%2522round-img%2520avatar-md%2522%2520src%253D%2522.....%2522%252F%253E%250A%253C%252Ffigure%253E%250A%2520%253Cfigure%253E%250A%2520%2520%253Cimg%2520class%253D%2522round-img%2520avatar-sm%2522%2520src%253D%2522.....%2522%252F%253E%250A%253C%252Ffigure%253E"
+                style="width: 749px; height: 297px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+              </iframe>
+            </code>
+        </div>  
+
+
+        <h4 class="font-l">Example of Text Avatar </h4> <br>
+          <div class="box container-flex ">
+            
+            <div class="round-text round-text-xl ">AB</div>
+            <div class="round-text round-text-l  ">AB</div>
+            <div class="round-text round-text-md ">AB</div>
+            <div class="round-text round-text-sm">AB</div>
+          </div>
+
+           
+          <div class="margin-m1 padding-p1">
+          
+            <p class="font-medium">You can use initial letters of user in Avatar as well. You need to include class round-text along with size class. (e.g. class="round-text round-text-xl")</p>
+     </div> <br>
+
+     <div class="margin-m1 container-flex flex-center">
+         <code>
+            <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28231%2C229%2C229%2C1%29&t=one-light&wt=none&l=auto&width=748.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522round-text%2520round-text-xl%2520%2522%253EAB%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522round-text%2520round-text-l%2520%2520%2522%253EAB%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522round-text%2520round-text-md%2520%2522%253EAB%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522round-text%2520round-text-sm%2522%253EAB%253C%252Fdiv%253E"
+            style="width: 749px; height: 137px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+         </code>
+     </div>  
+
+     <div class="box">
+
+     </div>
+
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
