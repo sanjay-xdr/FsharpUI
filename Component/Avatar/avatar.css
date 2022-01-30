@@ -1,84 +1,4 @@
-:root{
-  --primary-color:#7c3aed;
-  --light-color: #a78bfa;
-  --border-color:#a8a29e;
-
-}
-nav {
-  width: 90vw;
-  height: 6rem;
-  align-items: center;
-  border-radius: 0 0 1rem 1rem;
-  background-color: #ffffff;
-}
-
-.nav__icon--position {
-  position: absolute;
-}
-.nav__subtitle--position {
-  position: relative;
-  top: 1.5rem;
-  left: -4.5rem;
-  font-style: italic;
-  font-weight: 200;
-}
-ul{
-  justify-content: center;
-  height: 10rem;
-  width: 20rem;
-}
-.nav__item--hover:hover {
-  color: var(--primary-color);
- 
-
-}
-.container {
-  display: flex;
-}
-.sidebar {
-  flex: 1.5;
-  height: 100vh;
-  overflow: hidden;
-  overflow-y: auto;
-  justify-content: center;
-  box-shadow: 10px 10px 5px -7px rgba(0, 0, 0, 0.05);
-}
-
-.main {
-  margin-left: 2.3rem;
-  flex: 8.5;
-  height: 100vh;
-  overflow: hidden;
-  overflow-y: auto;
-}
-.sidebar::-webkit-scrollbar,
-.main::-webkit-scrollbar {
-  display: none;
-}
-
-li {
-  display: inline-block;
-  list-style-type: none;
-  font-size: inherit;
-}
-
-.sidebar-menu,
-.sidebar-title {
-  display: inline-block;
-  text-decoration: none;
- margin-left: 2rem;
-  color: black;
-  padding: 5px;
-  height: 3rem;
-  width: 28rem;
-}
-
-.sidebar-menu:hover {
-  background-color: var(--light-color);
-}
-
-
-
+@import url("../../Utility CSS/navbar.css");
 .box {
   height: 20rem;
   width: 120rem;
@@ -98,7 +18,7 @@ figure {
   border-radius: 50%;
 }
 
-.avatar-l {
+.avatar-lg {
   height: 10rem;
 }
 .avatar-md {
@@ -109,7 +29,7 @@ figure {
   height: 3rem;
 }
 
-.round-text {
+.round-avatar {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -124,7 +44,7 @@ figure {
   font-size: 4.8rem;
 }
 
-.round-text-l {
+.round-text-lg {
   height: 10rem;
   width: 10rem;
   font-size: 4.8rem;
