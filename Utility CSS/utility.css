@@ -80,7 +80,7 @@
 
 /* Font sizes */
 .font-medium {
-  font-size: 1.6rem;
+  font-size: 2rem;
 }
 
 .font-l {
@@ -99,4 +99,7 @@
 
 .margin-m1 {
   margin: 4px 6px;
+}
+.margin-m2 {
+  margin: 8px 10px;
 }
