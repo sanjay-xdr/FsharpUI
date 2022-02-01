@@ -1,0 +1,75 @@
+@import url("../../Utility CSS/navbar.css");
+
+.box {
+  height: 14rem;
+  width: 120rem;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem;
+}
+
+figure {
+  position: relative;
+  margin: 8px;
+}
+.avatar-xl {
+  height: 17rem;
+}
+
+.round-img {
+  border-radius: 50%;
+}
+
+.avatar-lg {
+  height: 10rem;
+}
+.avatar-md {
+  height: 6rem;
+}
+
+.avatar-sm {
+  height: 3rem;
+}
+
+.badge {
+  position: absolute;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  top: 8rem;
+  left: 7rem;
+}
+
+.badge-online {
+  background-color: var(--btn-success-color);
+}
+
+.badge-offline {
+  background-color: var(--border-color);
+}
+
+.badge-dnd {
+  background-color: var(--btn-danger-color);
+}
+
+.icon {
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+.icon-badge {
+  position: absolute;
+  text-align: center;
+  padding: 4px 4px;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  top: -2rem;
+  left: 2rem;
+  background-color: var(--light-color);
+  font-size: 1.8rem;
+}
+
+.code-container{
+  width: 100%;
+}
