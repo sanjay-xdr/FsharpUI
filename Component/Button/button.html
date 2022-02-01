@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="../../Utility CSS/utility.css" />
+    <link rel="stylesheet" href="./button.css" />
+
+    <link rel="icon" href="../../img/logo.png" type="image/x-icon" />
+    <title>Button</title>
+  </head>
+  <body>
+    <header>
+      <nav class="container-flex flex-sb flex-wr">
+        <div class="header__nav">
+          <ul class="container-flex">
+            <li>
+              <a
+                href="../../index.html"
+                class="font-l anchor-style nav__icon--position nav__item--hover"
+                >F#
+                <span class="nav__subtitle--position">Fast & Sharp UI</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container">
+      <div class="sidebar container-flex">
+        <ul class="font-xl">
+          <li>
+            <span class="sidebar-title"> Components </span>
+          </li>
+
+          <li>
+            <a href="#avatar" class="sidebar-menu" rel="noopener noreferrer">
+              Avatar
+            </a>
+          </li>
+
+          <li>
+            <a href="#alert" class="sidebar-menu" rel="noopener noreferrer">
+              Alert
+            </a>
+          </li>
+
+          <li>
+            <a href="#alert" class="sidebar-menu" rel="noopener noreferrer">
+              Badge
+            </a>
+          </li>
+
+          <li>
+            <a href="#alert" class="sidebar-menu" rel="noopener noreferrer">
+              Button
+            </a>
+          </li>
+
+          <li>
+            <a href="#alert" class="sidebar-menu" rel="noopener noreferrer">
+              Card
+            </a>
+          </li>
+
+          <li>
+            <a href="#alert" class="sidebar-menu" rel="noopener noreferrer">
+              Image
+            </a>
+          </li>
+          <li>
+            <a href="#alert" class="sidebar-menu" rel="noopener noreferrer">
+              Input
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="main">
+        <h1 class="font-xl margin-m2">Buttons</h1>
+        <br />
+        <hr />
+        <p class="font-medium margin-m2">Standard Buttons</p>
+        <div class="box">
+          <button class="btn btn-primary">Primary</button>
+          <button class="btn btn-secondary">Secondary</button>
+          <button class="btn btn-success">Success</button>
+          <button class="btn btn-danger">Danger</button>
+          <button class="btn btn-warning">Warning</button>
+          <button class="btn btn-default">Default</button>
+          <a href="#" target="_blank" class="btn-link">Link Button</a>
+        </div>
+        <div class="margin-m1 padding-p1">
+          <p class="font-medium">
+            Buttons are also called as call to action. We have range of buttons
+            and their states.
+          </p>
+        </div>
+        <div class="margin-m1 container-flex flex-center">
+          <code class="code-container">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28231%2C229%2C229%2C1%29&t=one-light&wt=none&l=auto&width=748.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EPrimary%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2522%253ESecondary%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-success%2522%253ESuccess%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-danger%2522%253EDanger%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-warning%2522%253EWarning%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-default%2522%253EDefault%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520target%253D%2522_blank%2522%2520class%253D%2522btn-link%2522%253ELink%2520Button%253C%252Fa%253E"
+              style="
+                width: 100%;
+                height: 197px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </code>
+        </div>
+
+        <p class="font-medium margin-m2">Outlined Buttons</p>
+        <div class="box">
+          <button class="btn outline-primary">Primary</button>
+          <button class="btn outline-secondary">Secondary</button>
+          <button class="btn outline-success">Success</button>
+          <button class="btn outline-danger">Danger</button>
+          <button class="btn outline-warning">Warning</button>
+          <button class="btn outline-default">Default</button>
+          <a href="#" target="_blank" class="outline-link">Link Button</a>
+        </div>
+        <div class="margin-m1 container-flex flex-center">
+          <code class="code-container">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28231%2C229%2C229%2C1%29&t=one-light&wt=none&l=text%2Fx-csrc&width=751.25&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline-primary%2522%253EPrimary%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline-secondary%2522%253ESecondary%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline-success%2522%253ESuccess%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline-danger%2522%253EDanger%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline-warning%2522%253EWarning%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline-default%2522%253EDefault%253C%252Fbutton%253E%250A%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520target%253D%2522_blank%2522%2520class%253D%2522outline-link%2522%253ELink%2520Button%253C%252Fa%253E"
+              style="
+                width: 100%;
+                height: 197px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </code>
+        </div>
+
+        <p class="font-medium margin-m2">Icon Buttons</p>
+        <div class="box">
+          <button class="btn-icon shopping-cart">
+            <i class="fa fa-shopping-cart fa-2x"></i>
+          </button>
+          <button class="btn-icon br trash">
+            <i class="fa fa-trash-o fa-2x"></i>
+          </button>
+          <button class="btn-icon br trash">
+            <i class="fa fa-comment-o fa-2x"></i>
+          </button>
+
+          <button class="btn btn-default">
+            <i class="fa fa-home"></i> Home
+          </button>
+          <button class="btn outline-default">
+            <i class="fa fa-bars"></i> Menu
+          </button>
+        </div>
+        <div class="margin-m1 container-flex flex-center">
+          <code class="code-container">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28231%2C229%2C229%2C1%29&t=one-light&wt=none&l=text%2Fx-csrc&width=751.25&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%253Cbutton%2520class%2520%253D%2520%2522btn-icon%2520shopping-cart%2522%253E%250A%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-shopping-cart%2520fa-2x%2522%253E%2520%253C%252Fi%253E%250A%2520%253C%252Fbutton%253E%250A%2520%2520%253Cbutton%2520class%2520%253D%2520%2522btn-icon%2520br%2520trash%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-trash-o%2520fa-2x%2522%253E%2520%253C%252Fi%253E%250A%2520%2520%253C%252Fbutton%253E%250A%2520%2520%253Cbutton%2520class%2520%253D%2520%2522btn-icon%2520br%2520trash%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-comment-o%2520fa-2x%2522%253E%2520%253C%252Fi%253E%250A%2520%2520%253C%252Fbutton%253E%250A%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-default%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-home%2522%253E%2520%253C%252Fi%253E%2520Home%250A%2520%2520%253C%252Fbutton%253E%250A%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline-default%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-bars%2522%253E%2520%253C%252Fi%253E%2520Menu%250A%2520%2520%253C%252Fbutton%253E"
+              style="
+                width: 100%;
+                height: 357px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </code>
+        </div>
+
+        <p class="font-medium margin-m2">Floating Buttons</p>
+
+        <div class="box">
+          <div class="buttons-container">
+            <a href="#" class="plus-icon">
+              <i class="fa fa-plus my-float fa-2x"></i>
+            </a>
+          </div>
+        </div>
+        <div class="margin-m1 padding-p1">
+          <p class="font-medium">
+            Floating action buttons are used for a promoted action
+          </p>
+        </div>
+        <div class="margin-m1 container-flex flex-center">
+          <code class="code-container">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28231%2C229%2C229%2C1%29&t=one-light&wt=none&l=text%2Fx-csrc&width=751.25&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522buttons-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522float%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-plus%2520my-float%2520fa-2x%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+              style="
+                width: 100%;
+                height: 157px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </code>
+        </div>
+
+        <div class="box"></div>
+      </div>
+    </div>
+  </body>
+</html>
