@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="../../Utility CSS/utility.css" />
+    <link rel="stylesheet" href="./card.css" />
+
+    <link rel="icon" href="../../img/logo.png" type="image/x-icon" />
+    <title>Card</title>
+</head>
+
+<body>
+    <header>
+        <nav class="container-flex flex-sb flex-wr">
+            <div class="header__nav">
+                <ul class="container-flex">
+                    <li>
+                        <a href="../../index.html" class="font-l anchor-style nav__icon--position nav__item--hover">F#
+                            <span class="nav__subtitle--position">Fast & Sharp UI</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+    <div class="container">
+        <div class="sidebar container-flex">
+            <ul class="font-xl">
+                <li>
+                    <span class="sidebar-title"> Components </span>
+                </li>
+
+                <li>
+                    <a href="#avatar" class="sidebar-menu" rel="noopener noreferrer">
+                        Avatar
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#alert" class="sidebar-menu" rel="noopener noreferrer">
+                        Alert
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#alert" class="sidebar-menu" rel="noopener noreferrer">
+                        Badge
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#alert" class="sidebar-menu" rel="noopener noreferrer">
+                        Button
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#alert" class="sidebar-menu" rel="noopener noreferrer">
+                        Card
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#alert" class="sidebar-menu" rel="noopener noreferrer">
+                        Image
+                    </a>
+                </li>
+                <li>
+                    <a href="#alert" class="sidebar-menu" rel="noopener noreferrer">
+                        Input
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="main">
+            <h1 class="font-xl margin-m2">Card</h1>
+            <p class="font-medium margin-m2 ">Cards are used to display products</p>
+            <br />
+            <hr />
+            <h1 class="font-medium margin-m2">Vertical Cards</h1>
+
+            <div class="box container-flex">
+
+                <div class="card-container container-flex flex-column">
+                    <div class="image-container badge-container">
+                        <img src="https://m.media-amazon.com/images/I/51FdLmNuPSL._SL1000_.jpg" class="img"
+                            alt="guitar image">
+                        <span class="badge">Bestseller</span>
+                    </div>
+                    <div class="card-title container-flex">
+                        <p class="font-medium margin-m1 padding-p1">Gibson Acoustic Guitar </p>
+                        <span class="margin-m1 font-medium wishlist-icon"><i class="fa fa-heart "
+                                aria-hidden="true"></i></span>
+
+                    </div>
+                    <div class=" container-flex flex-column">
+                        <p class="card-description margin-m1 padding-p2">Wooden Guitar with 4 pick ,extra strings,bag
+                            and strap </p>
+                        <p class="card-price margin-m1 padding-p2">Rs. 1399 <strike class="card-strikeprice">Rs.
+                                2999</strike> <span class="card-discount">(30% Off)</span> </p>
+                        <button class="btn-shopping-cart">
+                            <i class="fa fa-shopping-cart fa-2x"> Add to cart</i>
+
+                        </button>
+                    </div>
+
+
+
+
+                </div>
+
+                <div class="card-container container-flex flex-column">
+                    <div class="image-container badge-container">
+                        <img src="https://m.media-amazon.com/images/I/51FdLmNuPSL._SL1000_.jpg" class="img"
+                            alt="guitar image">
+                        <span class="badge">Bestseller</span>
+                        <span class="dismiss-badge">X</span>
+                    </div>
+                    <div class="card-title container-flex">
+                        <p class="font-medium margin-m1 padding-p1">Gibson Acoustic Guitar </p>
+                        <span class="margin-m1 font-medium wishlist-icon"><i class="fa fa-heart "
+                                aria-hidden="true"></i></span>
+
+                    </div>
+                    <div class=" container-flex flex-column">
+                        <p class="card-description margin-m1 padding-p2">Wooden Guitar with 4 pick ,extra strings,bag
+                            and strap </p>
+                        <p class="card-price margin-m1 padding-p2">Rs. 1399 <strike class="card-strikeprice">Rs.
+                                2999</strike> <span class="card-discount">(30% Off)</span> </p>
+                        <button class="btn-shopping-cart">
+                            <i class="fa fa-shopping-cart fa-2x"> Add to cart</i>
+
+                        </button>
+                    </div>
+
+
+
+
+                </div>
+
+
+                <div class="card-container container-flex flex-column card-soldout">
+                    <div class="card-soldout-text container-flex flex-center">
+                        <span>Sold Out</span>
+                    </div>
+                    <div class="image-container badge-container">
+                        <img src="https://m.media-amazon.com/images/I/51FdLmNuPSL._SL1000_.jpg" class="img"
+                            alt="guitar image">
+                        <span class="badge">Bestseller</span>
+                    </div>
+                    <div class="card-title container-flex">
+                        <p class="font-medium margin-m1 padding-p1">Gibson Acoustic Guitar </p>
+                        <span class="margin-m1 font-medium wishlist-icon"><i class="fa fa-heart "
+                                aria-hidden="true"></i></span>
+
+                    </div>
+                    <div class=" container-flex flex-column">
+                        <p class="card-description margin-m1 padding-p2">Wooden Guitar with 4 pick ,extra strings,bag
+                            and strap </p>
+                        <p class="card-price margin-m1 padding-p2">Rs. 1399 <strike class="card-strikeprice">Rs.
+                                2999</strike> <span class="card-discount">(30% Off)</span> </p>
+                        <button class="btn-shopping-cart">
+                            <i class="fa fa-shopping-cart fa-2x"> Add to cart</i>
+
+                        </button>
+                    </div>
+
+
+
+
+                </div>
+
+                
+
+
+
+            </div>
+
+
+        </div>
+    </div>
+
+</body>
+
+</html>
+
+
+</body>
+
+</html>
