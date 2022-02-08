@@ -1,0 +1,50 @@
+@import url("../../Utility CSS/navbar.css");
+
+.code-container {
+  width: 100%;
+}
+
+.box {
+  height: 30rem;
+}
+
+.text-area,
+.input {
+  height: 10rem;
+  width: 75rem;
+  font-size: 1.9rem;
+  padding: 1rem;
+  border: 1px solid var(--primary-color);
+  outline: none;
+}
+
+.input {
+  height: 5rem;
+}
+
+input:focus,
+textarea:focus {
+  border: 3px solid var(--light-color);
+}
+
+.input-radio {
+  font-size: 3.9rem;
+}
+
+.element-round {
+  font-size: 4.5rem;
+  height: 10rem;
+}
+
+input[type="email"]:invalid {
+  border: 3px solid var(--btn-danger-color);
+}
+
+input[type="password"]:invalid {
+  border: 3px solid var(--btn-danger-color);
+}
+
+.label-text {
+  display: inline-block;
+  margin: 1rem;
+}
