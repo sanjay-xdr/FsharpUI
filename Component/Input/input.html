@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="../../Utility CSS/utility.css" />
+    <link rel="stylesheet" href="./input.css" />
+
+    <link rel="icon" href="../../img/logo.png" type="image/x-icon" />
+    <title>Card</title>
+  </head>
+  <body>
+    <header>
+      <nav class="container-flex flex-sb flex-wr">
+        <div class="header__nav">
+          <ul class="container-flex">
+            <li>
+              <a
+                href="../../index.html"
+                class="font-l anchor-style nav__icon--position nav__item--hover"
+                >F#
+                <span class="nav__subtitle--position">Fast & Sharp UI</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container">
+      <div class="sidebar container-flex">
+        <ul class="font-xl">
+          <li>
+            <span class="sidebar-title"> Components </span>
+          </li>
+
+          <li>
+            <a href="#avatar" class="sidebar-menu" rel="noopener noreferrer">
+              Avatar
+            </a>
+          </li>
+
+          <li>
+            <a href="#alert" class="sidebar-menu" rel="noopener noreferrer">
+              Alert
+            </a>
+          </li>
+
+          <li>
+            <a href="#alert" class="sidebar-menu" rel="noopener noreferrer">
+              Badge
+            </a>
+          </li>
+
+          <li>
+            <a href="#alert" class="sidebar-menu" rel="noopener noreferrer">
+              Button
+            </a>
+          </li>
+
+          <li>
+            <a href="#alert" class="sidebar-menu" rel="noopener noreferrer">
+              Card
+            </a>
+          </li>
+
+          <li>
+            <a href="#alert" class="sidebar-menu" rel="noopener noreferrer">
+              Image
+            </a>
+          </li>
+          <li>
+            <a href="#alert" class="sidebar-menu" rel="noopener noreferrer">
+              Input
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="main">
+        <h1 class="font-xl margin-m2">Input</h1>
+        <br />
+        <hr />
+        <h3 class="font-medium margin-m2">Primary Inputs</h3>
+
+        <div class="box container-flex flex-column">
+          <textarea
+            class="text-area"
+            cols="300"
+            rows="10"
+            placeholder="Enter a text"
+          >
+          </textarea>
+          <br />
+          <br />
+          <input type="text" class="input" placeholder="Enter text" /> <br />
+          <br />
+          <input type="number" class="input" placeholder="Enter Number" />
+          <br />
+          <br />
+          <input type="password" class="input" placeholder="Enter password" />
+          <br />
+          <br />
+        </div>
+        <div class="margin-m2 padding-p2">
+          <code class="code-container container-flex flex-center">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28231%2C229%2C229%2C1%29&t=one-light&wt=none&l=auto&width=615.75&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Ctextarea%250A%2509class%253D%2522text-area%2522%250A%2520%2520%2520%2520cols%253D%2522300%2522%250A%2520%2520%2520%2520rows%253D%252210%2522%250A%2520%2520%2520%2520placeholder%253D%2522Enter%2520a%2520text%2522%253E%2520%253C%252Ftextarea%253E%2520%250A%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522input%2522%2520placeholder%253D%2522Enter%2520text%2522%2520%252F%253E%2520%250A%253Cinput%2520type%253D%2522number%2522%2520class%253D%2522input%2522%2520placeholder%253D%2522Enter%2520Number%2522%2520%252F%253E%2520%250A%253Cinput%2520type%253D%2522password%2522%2520class%253D%2522input%2522%2520placeholder%253D%2522Enter%2520password%2522%2520%252F%253E%2520"
+              style="
+                width: 603px;
+                height: 218px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </code>
+        </div>
+        <h3 class="font-medium margin-m2">Error Style Input</h3>
+
+        <div class="box">
+          <label for="demo" class="font-medium label-text">Email</label> <br />
+          <input type="email" name="demo" class="input" /> <br />
+          <label for="demo" class="font-medium label-text">Password</label>
+          <br />
+          <input
+            type="password"
+            class="input"
+            value="I@ampassword"
+            pattern="^.{8,}$"
+            required
+            placeholder="Enter Password"
+          />
+        </div>
+        <div class="margin-m2 padding-p2">
+          <code class="code-container container-flex flex-center">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28231%2C229%2C229%2C1%29&t=one-light&wt=none&l=auto&width=615.75&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Clabel%2520%2520class%253D%2522font-medium%2520label-text%2522%253EEmail%253C%252Flabel%253E%2520%253Cbr%253E%250A%253Cinput%2520type%253D%2522email%2522%2520%2520class%253D%2522input%2522%2520%253E%2520%253Cbr%253E%250A%253Clabel%2520for%253D%2522demo%2522%2520class%253D%2522font-medium%2520label-text%2520%2522%253EPassword%253C%252Flabel%253E%2520%253Cbr%253E%250A%253Cinput%2520type%253D%2522password%2522%2520class%253D%2522input%2522%2520value%253D%2522I%2540ampassword%2522%2520pattern%253D%2522%255E.%257B8%252C%257D%2524%2522%2520required%2520placeholder%253D%2522Enter%2520Password%2522%252F%253E%250A"
+              style="
+                width: 992px;
+                height: 158px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </code>
+        </div>
+
+        <div class="box"></div>
+      </div>
+    </div>
+  </body>
+</html>
