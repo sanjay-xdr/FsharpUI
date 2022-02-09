@@ -1,0 +1,76 @@
+@import url("../../Utility CSS/navbar.css");
+
+* {
+  box-sizing: border-box;
+}
+
+.modal-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.modal-container.hide {
+  display: none;
+}
+
+.modal {
+  background-color: #a78bfa;
+  width: 600px;
+  max-width: 100%;
+  padding: 30px 50px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.btn {
+  height: 5rem;
+  width: 10rem;
+  font-size: 1.8rem;
+  margin: 2rem;
+  padding: 4px 6px;
+  border: none;
+  border-radius: 1rem;
+  color: #fafafa;
+  background-color: none;
+}
+.outline-primary {
+  border: 1px solid var(--btn-primary-color);
+  color: var(--btn-primary-color);
+}
+
+.outline-primary:hover {
+  background-color: var(--btn-primary-color);
+  color: #fff;
+}
+
+.outline-danger {
+  border: 1px solid var(--btn-danger-color);
+  color: var(--btn-danger-color);
+}
+
+.outline-danger:hover {
+  background-color: var(--btn-danger-color);
+  color: #fff;
+}
+
+.code-container {
+  width: 100%;
+}
+
+.modal-demo {
+  margin: 1rem;
+  border: 1px solid var(--border-color);
+}
+
+.btn-default {
+  background-color: var(--primary-color);
+  cursor: pointer;
+}
