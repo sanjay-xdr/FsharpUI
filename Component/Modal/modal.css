@@ -1,8 +1,9 @@
 @import url("../../Utility CSS/navbar.css");
 
-* {
-  box-sizing: border-box;
+.code-container {
+  width: 100%;
 }
+
 
 .modal-container {
   position: fixed;

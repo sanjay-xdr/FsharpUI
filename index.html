@@ -5,114 +5,153 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-  />
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="./Utility CSS/utility.css" />
-    <link rel="stylesheet" href="./style.css" />
-    <link rel = "icon" href = "./img/logo.png" type = "image/x-icon">
+    <link rel="stylesheet" href="main.css" />
+
+    <link rel="icon" href="./img/logo.png" type="image/x-icon" />
     <title>F# | Home</title>
   </head>
   <body>
     <header>
-      <nav class="container-flex flex-sb flex-wr">
+      <nav class="container-flex flex-sb flex-wr nav">
         <div class="header__nav">
           <ul class="container-flex">
-
             <li>
-                <a href="" class="font-l anchor-style nav__icon--position nav__item--hover">F#
-                    <span class="nav__subtitle--position">Fast & Sharp UI</span>
-                </a>
+              <a
+                href=""
+                class="font-l anchor-style nav__icon--position nav__item--hover"
+                >F#
+                <span class="nav__subtitle--position">Fast & Sharp UI</span>
+              </a>
             </li>
-
-            <li>
-                <a href="" class="font-l anchor-style nav__item--hover">Home</a>
-            </li>
-
-             <li>
-                 <a href="" class="font-l anchor-style nav__item--hover">Documentation</a>
-             </li>
-
           </ul>
         </div>
 
         <div class="header__icon">
-          <ul class="container-flex">
+          <ul class="container-flex flex-sa">
             <li>
-                <a href="https://www.google.com" class="font-l anchor-style nav__item--hover">
-                    <i class="fa fa-github" aria-hidden="true"></i>
-                </a>
+              <a
+                href="https://github.com/sanjay-xdr/FsharpUI"
+                class="font-l anchor-style nav__item--hover"
+              >
+                <i class="fa fa-github" aria-hidden="true"></i>
+              </a>
             </li>
 
             <li>
-                <a href="" class="font-l anchor-style nav__item--hover">
-                    <i class="fa fa-twitter" aria-hidden="true"></i>
-                </a>
+              <a
+                href="https://twitter.com/sanjayxdr"
+                class="font-l anchor-style nav__item--hover"
+              >
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </a>
             </li>
 
             <li>
-                <a href="" class="font-l anchor-style nav__item--hover">
-                    <i class="fa fa-linkedin" aria-hidden="true"></i>
-                </a>
+              <a
+                href="https://www.linkedin.com/in/sanjay-jaiswal-603757202/"
+                class="font-l anchor-style nav__item--hover"
+              >
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+              </a>
             </li>
-            
+
             <!-- <li><a href="" class="font-l anchor-style"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li> -->
-
           </ul>
         </div>
       </nav>
     </header>
 
-    <section class="margin-m1 container-flex flex-center flex-wr ">
-
-        <div class="section__title">
-            <h1 class="font-xl">Build Your UI Faster</h1>
-            <p class="font-l font-light">Copy and paste the components at one click.</p> <p class="font-l font-light">user-friendly and customizable </p> <p  class="font-l font-light"> Spend less time in designing and concentrate more on logic without hustling on UI.</p>
-            <a href="#Installation" class="anchor-style  "> <button class="button-style btn-primary border-radius-s font-l" >Installation</button></a>
-            <a href="./Component/Avatar/avatar.html" class="anchor-style  "> <button class="button-style btn-secondry border-radius-s font-l" >Documentation</button></a>
-        </div>
-
-        <div class="section__img">
-            <img src="./img/undraw_web_developer_re_h7ie.svg" alt="">
-        </div> 
-
+    <section class="container-flex flex-center hero">
+      <div class="section__title">
+        <h1 class="font-xl">Build Your UI Faster</h1>
+        <p class="font-l font-light">
+          Copy and paste the components at one click.
+        </p>
+        <p class="font-l font-light">user-friendly and customizable</p>
+        <p class="font-l font-light">
+          Spend less time in designing and concentrate more on logic without
+          hustling on UI.
+        </p>
+        <br />
+        <a href="./Component/Avatar/avatar.html" class="anchor-style">
+          <button class="button-style btn-default border-radius-s font-l btn">
+            Check
+          </button></a
+        >
+      </div>
     </section>
 
+    <section
+      class="margin-m1 container-flex flex-center flex-wr"
+      id="Installation"
+    >
+      <div class="section__title section__title2">
+        <h1 class="font-xl">Installation</h1>
+        <p class="font-l font-light">
+          Copy anode in the head tag of your html document <br />
+          So that you can style your components by just adding class names to
+          your html elements.
+        </p>
+      </div>
 
-    <section class="margin-m1 container-flex flex-center flex-wr" id="Installation">
-
-       <div class="section__title section__title2">
-           <h1 class="font-xl">Installation</h1>
-            <p class="font-l font-light ">Copy anode in the head tag of your html document. So that you can style your components by just adding class names to your html elements.</p>
-            <p class="font-l font-light ">To know about the styled components, their variations, read the documentaion</p>
-            <a href="./Component/Avatar/avatar.html" class="anchor-style  "> <button class="button-style btn-secondry border-radius-s font-l" >Documentation</button></a>
-        </div>
-
-        <div class="section__img">
-            <code>
-                <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%28144%2C19%2C254%2C1%29&t=verminal&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=11.5px&lh=143%25&si=false&es=2x&wm=false"
-                style="width: 630px; height: 238px; border:0; transform: scale(1); overflow:hidden;"
-                sandbox="allow-scripts allow-same-origin">
-                </iframe>
-            </code>
-        </div>       
-       
+      <div class="section__img">
+        <code class="code-container">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28231%2C229%2C229%2C1%29&t=one-light&wt=none&l=auto&width=807.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2540import%2520url%28https%253A%252F%252Floving-mestorf-0a3389.netlify.app%252Fmain.css%29"
+            style="
+              width: 100%;
+              height: 78px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </code>
+      </div>
     </section>
 
-
-    <footer class=" container-flex flex-center flex-wr flex-column" >
-    <p class="font-medium">Made with  &lt; &#47; &gt; by
-        <a href="http://sanjayxdr.com/" class="font-medium anchor-style footer__item nav__item--hover">Sanjay Jaiswal</a>
-    </p> <br>
-    <div class="header__icon ">
+    <footer class="container-flex flex-center flex-wr flex-column footer">
+      <p class="font-medium">
+        Made with &lt; &#47; &gt; by
+        <a
+          href="http://sanjayxdr.com/"
+          class="font-medium anchor-style footer__item nav__item--hover"
+          >Sanjay Jaiswal</a
+        >
+      </p>
+      <br />
+      <div class="footer__icon">
         <ul class="container-flex">
-            <li><a href="https://www.google.com" class="font-l anchor-style nav__item--hover footer__icon"><i class="fa fa-github" aria-hidden="true"></i></a></li>
-            <li><a href="" class="font-l anchor-style nav__item--hover footer__icon"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-            <li><a href="" class="font-l anchor-style nav__item--hover footer__icon"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-            <!-- <li><a href="" class="font-l anchor-style"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li> -->
+          <li>
+            <a
+              href="https://github.com/sanjay-xdr"
+              class="font-l anchor-style nav__item--hover footer__icon"
+              ><i class="fa fa-github" aria-hidden="true"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://twitter.com/sanjayxdr"
+              class="font-l anchor-style nav__item--hover footer__icon"
+              ><i class="fa fa-twitter" aria-hidden="true"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/sanjay-jaiswal-603757202/"
+              class="font-l anchor-style nav__item--hover footer__icon"
+              ><i class="fa fa-linkedin" aria-hidden="true"></i
+            ></a>
+          </li>
+          <!-- <li><a href="" class="font-l anchor-style"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li> -->
         </ul>
-    </div>
+      </div>
     </footer>
-</body>
+  </body>
 </html>

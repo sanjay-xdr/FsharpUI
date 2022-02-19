@@ -1,0 +1,30 @@
+@import url(./Component/component.css);
+
+.code-container {
+  width: 100%;
+}
+
+.section__img {
+  width: 100%;
+}
+
+.header__icon,
+.header__nav {
+  width: 10rem;
+  height: 5rem;
+}
+
+.hero {
+  height: 60vh;
+}
+
+.footer {
+  height: 25rem;
+}
+
+.footer__icon {
+  display: flex;
+  justify-content: space-around;
+  width: 10rem;
+  height: 10rem;
+}
