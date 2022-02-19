@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="../../Utility CSS/utility.css" />
+    <link rel="stylesheet" href="./toast.css" />
+
+    <link rel="icon" href="../../img/logo.png" type="image/x-icon" />
+    <title>Toast</title>
+  </head>
+  <body>
+    <header>
+      <nav class="container-flex flex-sb flex-wr">
+        <div class="header__nav">
+          <ul class="container-flex">
+            <li>
+              <a
+                href="../../index.html"
+                class="font-l anchor-style nav__icon--position nav__item--hover"
+                >F#
+                <span class="nav__subtitle--position">Fast & Sharp UI</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container">
+      <div class="sidebar container-flex">
+        <ul class="font-xl">
+          <li>
+              <span class="sidebar-title"> Components </span>
+          </li>
+          <li>
+              <a href="../Avatar/avatar.html" class="sidebar-menu" rel="noopener noreferrer">
+              Avatar
+              </a>
+          </li>
+          <li>
+              <a href="../Alert/alert.html" class="sidebar-menu" rel="noopener noreferrer">
+              Alert
+              </a>
+          </li>
+          <li>
+              <a href="../Badge/badge.html" class="sidebar-menu" rel="noopener noreferrer">
+              Badge
+              </a>
+          </li>
+          <li>
+              <a href="../Button/button.html" class="sidebar-menu" rel="noopener noreferrer">
+              Button
+              </a>
+          </li>
+          <li>
+              <a href="../Card/card.html" class="sidebar-menu" rel="noopener noreferrer">
+              Card
+              </a>
+          </li>
+          <li>
+              <a href="../Image/image.html" class="sidebar-menu" rel="noopener noreferrer">
+              Image
+              </a>
+          </li>
+          <li>
+              <a href="../Input/input.html" class="sidebar-menu" rel="noopener noreferrer">
+              Input
+              </a>
+          </li>
+          <li>
+              <a href="../TextUtilities/textUtilities.html" class="sidebar-menu" rel="noopener noreferrer">
+              Text Utilities
+              </a>
+          </li>
+          <li>
+              <a href="../List/list.html" class="sidebar-menu" rel="noopener noreferrer">
+              List
+              </a>
+          </li>
+          <li>
+              <a href="../Navigation/navigation.html" class="sidebar-menu" rel="noopener noreferrer">
+              Navigation
+              </a>
+          </li>
+          <li>
+              <a href="../Modal/modal.html" class="sidebar-menu" rel="noopener noreferrer">
+              Modal
+              </a>
+          </li>
+          <li>
+              <a href="../Rating/rating.html" class="sidebar-menu" rel="noopener noreferrer">
+              Rating
+              </a>
+          </li>
+          <li>
+              <a href="../Toast/toast.html" class="sidebar-menu" rel="noopener noreferrer">
+              Toast
+              </a>
+          </li>
+          <li>
+              <a href="../SimplifiedGrid/grid.html" class="sidebar-menu" rel="noopener noreferrer">
+              Simplified Grid
+              </a>
+          </li>
+      </ul>
+      </div>
+      <div class="main">
+        <h1 class="font-xl margin-m2">Toast</h1>
+        <br />
+        <hr />
+
+        <div class="box">
+          <div class="toast toast-danger">Error! Please try again</div>
+          <div class="toast toast-success">Purchased Completed</div>
+          <div class="toast toast-default">Added to Cart</div>
+        </div>
+        <br />
+        <p class="font-medium margin-m1">
+          Toasts is a temporary notifications. They're meant to be noticed
+          without disrupting the user's experience
+        </p>
+        <button class="btn btn-default" id="button">Demo</button>
+        <div id="toast"></div>
+        <p class="font-medium margin-m1">
+          Create a div with id="toast" and button with id="button" in your code
+        </p>
+        <div class="margin-m1 container-flex flex-center">
+          <code class="code-container">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28231%2C229%2C229%2C1%29&t=one-light&wt=none&l=text%2Fx-csrc&width=471.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%252F%252Fdifferent%2520types%2520of%2520toast%250A%253Cdiv%2520class%253D%2522toast%2520toast-danger%2522%253EError%21%2520Please%2520try%2520again%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522toast%2520toast-success%2522%253EPurchased%2520Completed%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522toast%2520toast-default%2522%253EAdded%2520to%2520Cart%253C%252Fdiv%253E%250A%250A%252F%252Ftoast%2520container%250A%2520%253Cdiv%2520id%253D%2522toast%2522%253E%253C%252Fdiv%253E%250A%2520%252F%252Fbutton%2520to%2520display%2520the%2520toast%250A%2520%253Cbutton%2520class%253D%2522btn%2520btn-default%2522%2520id%253D%2522button%2522%253EDemo%253C%252Fbutton%253E%250A"
+              style="
+                width: 100%;
+                height: 258px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </code>
+        </div>
+        <h3 class="font-medium margin-m1">Javascript</h3>
+        <div class="margin-m1 container-flex flex-center">
+          <code class="code-container">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28231%2C229%2C229%2C1%29&t=one-light&wt=none&l=javascript&width=807.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=const%2520button%253Ddocument.getElementById%28%27button%27%29%250Aconst%2520toasts%253Ddocument.getElementById%28%27toast%27%29%250A%250Abutton.addEventListener%28%27click%27%252C%28%29%253D%253E%257B%250A%2520%2520%2520%2520createNotification%28%29%250A%257D%29%250A%250A%250Aconst%2520createNotification%253D%2520%28%29%253D%253E%2520%257B%250A%2520%2520%2520%2520const%2520notif%253Ddocument.createElement%28%27div%27%29%253B%250A%2520%2520%2520%2520notif.classList.add%28%27toast%27%29%253B%250A%2520%2520%2520%2520notif.classList.add%28%27toast-default%27%29%253B%250A%2520%2520%2520%2520notif.innerText%253D%2522Added%2520to%2520Cart%2522%253B%250A%2520%2520%2520%2520toasts.appendChild%28notif%29%253B%250A%250A%2520%2520%2520%2520setTimeout%28%28%29%253D%253E%257B%250A%2520%2520%2520%2520%2520%2520%2520%2520notif.remove%28%29%250A%2520%2520%2520%2520%257D%252C3000%29%250A%257D"
+              style="
+                width: 100%;
+                height: 514px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </code>
+        </div>
+      </div>
+    </div>
+
+    <script src="./toast.js"></script>
+  </body>
+</html>

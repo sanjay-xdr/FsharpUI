@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../../Utility CSS/utility.css" />
+    <link rel="stylesheet" href="./rating.css" />
+
+    <link rel="icon" href="../../img/logo.png" type="image/x-icon" />
+    <title>Rating</title>
+  </head>
+  <body>
+    <header>
+      <nav class="container-flex flex-sb flex-wr">
+        <div class="header__nav">
+          <ul class="container-flex">
+            <li>
+              <a
+                href="../../index.html"
+                class="font-l anchor-style nav__icon--position nav__item--hover"
+                >F#
+                <span class="nav__subtitle--position">Fast & Sharp UI</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container">
+      <div class="sidebar container-flex">
+        <ul class="font-xl">
+          <li>
+              <span class="sidebar-title"> Components </span>
+          </li>
+          <li>
+              <a href="../Avatar/avatar.html" class="sidebar-menu" rel="noopener noreferrer">
+              Avatar
+              </a>
+          </li>
+          <li>
+              <a href="../Alert/alert.html" class="sidebar-menu" rel="noopener noreferrer">
+              Alert
+              </a>
+          </li>
+          <li>
+              <a href="../Badge/badge.html" class="sidebar-menu" rel="noopener noreferrer">
+              Badge
+              </a>
+          </li>
+          <li>
+              <a href="../Button/button.html" class="sidebar-menu" rel="noopener noreferrer">
+              Button
+              </a>
+          </li>
+          <li>
+              <a href="../Card/card.html" class="sidebar-menu" rel="noopener noreferrer">
+              Card
+              </a>
+          </li>
+          <li>
+              <a href="../Image/image.html" class="sidebar-menu" rel="noopener noreferrer">
+              Image
+              </a>
+          </li>
+          <li>
+              <a href="../Input/input.html" class="sidebar-menu" rel="noopener noreferrer">
+              Input
+              </a>
+          </li>
+          <li>
+              <a href="../TextUtilities/textUtilities.html" class="sidebar-menu" rel="noopener noreferrer">
+              Text Utilities
+              </a>
+          </li>
+          <li>
+              <a href="../List/list.html" class="sidebar-menu" rel="noopener noreferrer">
+              List
+              </a>
+          </li>
+          <li>
+              <a href="../Navigation/navigation.html" class="sidebar-menu" rel="noopener noreferrer">
+              Navigation
+              </a>
+          </li>
+          <li>
+              <a href="../Modal/modal.html" class="sidebar-menu" rel="noopener noreferrer">
+              Modal
+              </a>
+          </li>
+          <li>
+              <a href="../Rating/rating.html" class="sidebar-menu" rel="noopener noreferrer">
+              Rating
+              </a>
+          </li>
+          <li>
+              <a href="../Toast/toast.html" class="sidebar-menu" rel="noopener noreferrer">
+              Toast
+              </a>
+          </li>
+          <li>
+              <a href="../SimplifiedGrid/grid.html" class="sidebar-menu" rel="noopener noreferrer">
+              Simplified Grid
+              </a>
+          </li>
+      </ul>
+      </div>
+      <div class="main">
+        <h1 class="font-xl margin-m2">Rating</h1>
+        <br />
+        <hr />
+
+        <div class="box margin-m2 padding-p1">
+          <i class="fas fa-star checked"></i>
+          <i class="fas fa-star checked"></i>
+          <i class="fas fa-star checked"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <p class="font-medium margin-m1">
+          Ratings are used to provide insight regarding others opinions and
+          experiences
+        </p>
+        <div class="margin-m1 container-flex flex-center">
+          <code class="code-container">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28231%2C229%2C229%2C1%29&t=one-light&wt=none&l=javascript&width=807.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Ci%2520class%253D%2522fas%2520fa-star%2520checked%2522%253E%253C%252Fi%253E%250A%253Ci%2520class%253D%2522fas%2520fa-star%2520checked%2522%253E%253C%252Fi%253E%250A%253Ci%2520class%253D%2522fas%2520fa-star%2520checked%2522%253E%253C%252Fi%253E%250A%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%250A%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E"
+              style="
+                width: 100%;
+                height: 158px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </code>
+        </div>
+
+        <h3 class="font-xl margin-m2">Dynamic Rating</h3>
+
+        <div class="box">
+          <i class="rating__star far fa-star"></i>
+          <i class="rating__star far fa-star"></i>
+          <i class="rating__star far fa-star"></i>
+          <i class="rating__star far fa-star"></i>
+          <i class="rating__star far fa-star"></i>
+        </div>
+
+        <div class="margin-m1 container-flex flex-center">
+          <code class="code-container">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28231%2C229%2C229%2C1%29&t=one-light&wt=none&l=javascript&width=807.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Ci%2520class%253D%2522rating__star%2520far%2520fa-star%2522%253E%2520%253C%252Fi%253E%250A%253Ci%2520class%253D%2522rating__star%2520far%2520fa-star%2522%253E%2520%253C%252Fi%253E%250A%253Ci%2520class%253D%2522rating__star%2520far%2520fa-star%2522%253E%2520%253C%252Fi%253E%250A%253Ci%2520class%253D%2522rating__star%2520far%2520fa-star%2522%253E%2520%253C%252Fi%253E%250A%253Ci%2520class%253D%2522rating__star%2520far%2520fa-star%2522%253E%2520%253C%252Fi%253E"
+              style="
+                width: 100%;
+                height: 158px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </code>
+        </div>
+
+        <h3 class="font-xl margin-m2">Javascript</h3>
+
+        <div class="margin-m1 container-flex flex-center">
+          <code class="code-container">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28231%2C229%2C229%2C1%29&t=one-light&wt=none&l=javascript&width=807.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=const%2520ratingStars%2520%253D%2520%255B...document.getElementsByClassName%28%2522rating__star%2522%29%255D%253B%250A%250Aconst%2520executeRating%2520%253D%2520%28stars%29%253D%253E%2520%257B%250A%2520%2520const%2520starActive%2520%253D%2520%2522rating__star%2520fas%2520fa-star%2522%253B%250A%2520%2520const%2520starInactive%2520%253D%2520%2522rating__star%2520far%2520fa-star%2522%253B%250A%2520%2520const%2520starsLength%2520%253D%2520stars.length%253B%250A%2520%2520let%2520i%253B%250A%2520%2520stars.map%28%28star%29%2520%253D%253E%2520%257B%250A%2520%2520%2520%2520star.onclick%2520%253D%2520%28%29%2520%253D%253E%2520%257B%250A%2520%2520%2520%2520%2520%2520i%2520%253D%2520stars.indexOf%28star%29%253B%250A%250A%2520%2520%2520%2520%2520%2520if%2520%28star.className%2520%253D%253D%253D%2520starInactive%29%2520%257B%250A%2520%2520%2520%2520%2520%2520%2520%2520for%2520%28i%253B%2520i%2520%253E%253D%25200%253B%2520--i%29%2520stars%255Bi%255D.className%2520%253D%2520starActive%253B%250A%2520%2520%2520%2520%2520%2520%257D%2520else%2520%257B%250A%2520%2520%2520%2520%2520%2520%2520%2520for%2520%28i%253B%2520i%2520%253C%2520starsLength%253B%2520%252B%252Bi%29%2520stars%255Bi%255D.className%2520%253D%2520starInactive%253B%250A%2520%2520%2520%2520%2520%2520%257D%250A%2520%2520%2520%2520%257D%253B%250A%2520%2520%257D%29%253B%250A%257D%250AexecuteRating%28ratingStars%29%253B%250A"
+              style="
+                width: 100%;
+                height: 478px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </code>
+        </div>
+      </div>
+    </div>
+    <script src="rating.js"></script>
+  </body>
+</html>
