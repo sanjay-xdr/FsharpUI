@@ -74,7 +74,14 @@
 - Grid 3 Column
 
 
-[demo](https://github.com/sanjay-xdr/FsharpUI/blob/dev/Ui-demo.mp4)
+
+
+
+
+
+![Video Demo](https://user-images.githubusercontent.com/55450200/154896944-3ec049f8-f18c-4636-816f-598d5cdd9bfb.gif)
+
+
 
 
 
